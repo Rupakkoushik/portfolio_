@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1d1160;
+   
+    /* overflow: hidden;  */
+    overflow-x: hidden;
+    height: 100%;
+   
+}
+header{
+    height: 4rem;
+    background-image: linear-gradient(to left ,rgb(21, 13, 107) 1.1%, rgb(188, 16, 80) 130.5%);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.nav1{
+    float: left;
+}
+.nav1 img{
+    width: 25px;
+}
+.nav1 li{
+    margin:25px ;
+}
+.nav1 ul{
+    display: flex;
+    list-style: none;
+}
+.nav2 li{width: 5rem;
+    list-style: none;
+    margin: 25px;
+    
+}
+.nav2 a{
+    
+text-decoration: none;
+font-family: 'Teko', sans-serif;
+font-size: 25px;
+color: white;
+
+
+
+}
+.nav1 img:hover{
+    transform: perspective(19px) translateZ(5px);
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
+    
+}
+.nav2 ul{
+   display: flex;
+}
+.nav2 a:hover{
+    letter-spacing: 2px;
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
+    
+  
+}
+.img img{
+    width: 30%;
+    float: right;
+    position: relative;
+    bottom: 178px;
+    left: -50px;
+    border: 1px solid transparent;
+    
+}
+.img img:hover{
+    box-shadow: 0px 0px 25px 15px #793FDF;
+    transform:  perspective(0.03px)   translateZ(0.03px);
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.intro{
+    color: rgba(255, 255, 255, 0.831);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 70px;
+    left: 160px;
+    word-spacing: 7px;
+    letter-spacing: 5px;
+    line-height: 70px;
+}
+.skill{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    line-height: 40px;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    position: relative;
+    top: 145px;
+    left: 156px;
+}
+.skill h2{
+    color: rgba(255, 255, 255, 0.687);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.skill div{
+    color: whitesmoke;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    position: relative;
+    top: 305px;
+    color: white;
+    
+}
+footer h2{
+    position: relative;
+    left: 250px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: relative;
+    top: 8px;
+}
+.skill h2:hover{
+    transform: translateX(10px);
+    font-size: 65px;
+    
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+    
+
+}
+.skill div:hover{ transform: translateX(10px);
+    font-size: 55px;
+    margin: 5px 0px;
+    
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+.skill div{
+    width: 370px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    position: relative;
+    left: 32rem;
+    top: 11rem;
+    
+    }
+
+
+.button1{
+    width: 130px;
+    height: 40px;
+    margin-right:20px ;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.button2{
+    width: 130px;
+    height: 40px;
+    margin-left:20px ;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    
+    font-size: 30px;
+}
+.button button{
+    width: 130px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: #FF0060;
+    color: #FBFFDC;
+    border: 1px solid transparent;
+    font-family: 'Crushed', sans-serif;
+
+}
+button:hover{
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0px 0px 15px 5px #A31ACB;
+    
+
+}
+.intro div:hover{
+    text-shadow: 0px 0px 10px white,
+    0px 0px 20px white,
+    0px 0px 40px white,
+    0px 0px 60px white,
+    0px 0px 80px white,
+    0px 0px 120px white;
+    letter-spacing: 10px;
+    transition: all 0.35s;
+    transition-timing-function: ease-in-out;
+   
+}
